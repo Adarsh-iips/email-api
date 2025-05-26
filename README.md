@@ -21,7 +21,10 @@ This project is a REST API built using the [Serverless Framework](https://www.se
 ### Install dependencies
 
 ```bash
-npm install
+npm init -y
+npm install nodemailer
+npm install --save-dev serverless-offline
+
 
 Run offline:- ```bash
 npx serverless offline
